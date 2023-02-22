@@ -1,0 +1,119 @@
+body  {
+    font-family: 'Outfit';
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5%;
+    height: 430px;
+    margin-top: calc( (100vh - 430px) / 2);
+    box-shadow: 0 20px 0 12px  hsl(217, 55%, 10%);
+}
+
+.imagem-cubo {
+    margin-left: auto;
+    max-width: max-content;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+    margin-top: 5%;
+    
+}
+
+.titulo {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.subtitulo {
+    color: hsl(215, 51%, 70%);
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.ethereum {
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    padding-top: 15px;
+}
+
+.tempo {
+    color: hsl(215, 51%, 70%);
+    font-weight: lighter;
+    display: flex;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.quebra-linha {
+    max-width: 220px;
+    margin-left: 15px;
+    margin-top: 10px;
+    opacity: 0.2;
+    
+}
+
+.rodape {
+    padding-top: 10px;
+    display: flex;
+    font-size: 12px;
+    color: hsl(215, 51%, 70%);
+}
+
+.rodape .jules {
+    padding-left: 15px;
+    width: 40px;
+    height: 25px;
+}
+
+.rodape .criador {
+    padding-left: 15px;
+    padding-top: 5px;
+    font-weight: lighter;
+}
+
+.ethereum .joia {
+    max-height: 15px;
+    padding-left: 15px;
+}
+
+.ethereum .quantidade {
+    color: hsl(178, 100%, 50%);
+    padding-left: 5px;
+}
+
+.tempo .relogio {
+    width: 20px;
+    height: 17px;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+.cor {
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+
+
